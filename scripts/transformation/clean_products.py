@@ -8,23 +8,17 @@ sys.path.append(
     )
 )
 from utils.logger import log_etl_run
-# -----------------------------------
-# Read Raw Products Data
-# -----------------------------------
 
+# Read Raw Products Data
 df = pd.read_csv("data/raw/products_raw.csv")
 
 print("Raw Data Shape:", df.shape)
 
-# -----------------------------------
 # Remove Duplicate Records
-# -----------------------------------
-
 df = df.drop_duplicates()
 
-# -----------------------------------
+
 # Handle Missing Values
-# -----------------------------------
 
 # Numeric columns
 numeric_cols = df.select_dtypes(include='number').columns
@@ -38,10 +32,8 @@ text_cols = df.select_dtypes(include=['object', 'string']).columns
 for col in text_cols:
     df[col] = df[col].fillna("Unknown")
 
-# -----------------------------------
-# Standardize Column Names
-# -----------------------------------
 
+# Standardize Column Names
 df.columns = (
     df.columns
     .str.strip()
@@ -49,9 +41,7 @@ df.columns = (
     .str.replace(" ", "_")
 )
 
-# -----------------------------------
 # Data Type Fixes
-# -----------------------------------
 
 # Convert price columns to float
 if 'price' in df.columns:
@@ -61,9 +51,8 @@ if 'price' in df.columns:
 if 'stock' in df.columns:
     df['stock'] = df['stock'].astype(int)
 
-# -----------------------------------
+
 # Business Transformations
-# -----------------------------------
 
 # Create discounted price column
 if 'price' in df.columns and 'discountpercentage' in df.columns:
@@ -87,9 +76,7 @@ if 'stock' in df.columns:
         lambda x: 'Low Stock' if x < 20 else 'Available'
     )
 
-# -----------------------------------
 # Select Important Columns
-# -----------------------------------
 
 selected_columns = [
     'id',
@@ -106,10 +93,8 @@ selected_columns = [
 
 df = df[selected_columns]
 
-# -----------------------------------
-# Save Cleaned Data
-# -----------------------------------
 
+# Save Cleaned Data
 output_path = "data/processed/products_cleaned.csv"
 
 df.to_csv(output_path, index=False)

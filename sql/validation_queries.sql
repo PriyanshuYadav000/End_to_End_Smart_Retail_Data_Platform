@@ -1,7 +1,3 @@
--- ==========================================
--- SMART RETAIL DATA PLATFORM
--- Data Validation Queries
--- ==========================================
 
 -- 1. Product Record Count Validation
 
@@ -18,9 +14,6 @@ FROM dim_users;
 SELECT COUNT(*) AS total_carts
 FROM fact_carts;
 
--- ==========================================
--- DUPLICATE CHECKS
--- ==========================================
 
 -- 4. Duplicate Product IDs
 
@@ -43,9 +36,6 @@ FROM fact_carts
 GROUP BY cart_id
 HAVING COUNT(*) > 1;
 
--- ==========================================
--- NULL VALUE CHECKS
--- ==========================================
 
 -- 7. Null Product Titles
 
@@ -65,9 +55,7 @@ SELECT *
 FROM fact_carts
 WHERE total IS NULL;
 
--- ==========================================
 -- BUSINESS VALIDATION CHECKS
--- ==========================================
 
 -- 10. Products Per Category
 
