@@ -1,0 +1,32 @@
+                Smart Retail Data Platform
+
+                    DummyJSON API
+                           |
+                           v
+                  Data Extraction Layer
+                 (Python + Requests)
+                           |
+                           v
+                     Raw CSV Layer
+                      data/raw/
+                           |
+                           v
+               Data Transformation Layer
+                     (Pandas ETL)
+                           |
+                           v
+                  Processed CSV Layer
+                   data/processed/
+                           |
+                           v
+                 MySQL Data Warehouse
+          dim_products | dim_users | fact_carts
+                           |
+                           v
+                 SQL Validation Layer
+                           |
+                           v
+                Business Analytics Layer
+                           |
+                           v
+                   ETL Logging Layer

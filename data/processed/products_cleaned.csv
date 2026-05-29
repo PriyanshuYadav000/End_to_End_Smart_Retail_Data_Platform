@@ -1,0 +1,195 @@
+id,title,category,brand,price,discountpercentage,discounted_price,rating,stock,stock_status
+1,Essence Mascara Lash Princess,beauty,Essence,9.99,10.48,8.94,2.56,99,Available
+2,Eyeshadow Palette with Mirror,beauty,Glamour Beauty,19.99,18.19,16.35,2.86,34,Available
+3,Powder Canister,beauty,Velvet Touch,14.99,9.84,13.51,4.64,89,Available
+4,Red Lipstick,beauty,Chic Cosmetics,12.99,12.16,11.41,4.36,91,Available
+5,Red Nail Polish,beauty,Nail Couture,8.99,11.44,7.96,4.32,79,Available
+6,Calvin Klein CK One,fragrances,Calvin Klein,49.99,1.89,49.05,4.37,29,Available
+7,Chanel Coco Noir Eau De,fragrances,Chanel,129.99,16.51,108.53,4.26,58,Available
+8,Dior J'adore,fragrances,Dior,89.99,14.72,76.74,3.8,98,Available
+9,Dolce Shine Eau de,fragrances,Dolce & Gabbana,69.99,0.62,69.56,3.96,4,Low Stock
+10,Gucci Bloom Eau de,fragrances,Gucci,79.99,14.39,68.48,2.74,91,Available
+11,Annibale Colombo Bed,furniture,Annibale Colombo,1899.99,8.57,1737.16,4.77,88,Available
+12,Annibale Colombo Sofa,furniture,Annibale Colombo,2499.99,14.4,2139.99,3.92,60,Available
+13,Bedside Table African Cherry,furniture,Furniture Co.,299.99,19.09,242.72,2.87,64,Available
+14,Knoll Saarinen Executive Conference Chair,furniture,Knoll,499.99,2.01,489.94,4.88,26,Available
+15,Wooden Bathroom Sink With Mirror,furniture,Bath Trends,799.99,8.8,729.59,3.59,7,Low Stock
+16,Apple,groceries,Unknown,1.99,12.62,1.74,4.19,8,Low Stock
+17,Beef Steak,groceries,Unknown,12.99,9.61,11.74,4.47,86,Available
+18,Cat Food,groceries,Unknown,8.99,9.58,8.13,3.13,46,Available
+19,Chicken Meat,groceries,Unknown,9.99,13.7,8.62,3.19,97,Available
+20,Cooking Oil,groceries,Unknown,4.99,9.33,4.52,4.8,10,Low Stock
+21,Cucumber,groceries,Unknown,1.49,0.16,1.49,4.07,84,Available
+22,Dog Food,groceries,Unknown,10.99,10.27,9.86,4.55,71,Available
+23,Eggs,groceries,Unknown,2.99,11.05,2.66,2.53,9,Low Stock
+24,Fish Steak,groceries,Unknown,14.99,4.23,14.36,3.78,74,Available
+25,Green Bell Pepper,groceries,Unknown,1.29,0.16,1.29,3.25,33,Available
+26,Green Chili Pepper,groceries,Unknown,0.99,1.0,0.98,3.66,3,Low Stock
+27,Honey Jar,groceries,Unknown,6.99,14.4,5.98,3.97,34,Available
+28,Ice Cream,groceries,Unknown,5.49,8.69,5.01,3.39,27,Available
+29,Juice,groceries,Unknown,3.99,12.06,3.51,3.94,50,Available
+30,Kiwi,groceries,Unknown,2.49,15.22,2.11,4.93,99,Available
+31,Lemon,groceries,Unknown,0.79,9.7,0.71,3.53,31,Available
+32,Milk,groceries,Unknown,3.49,13.74,3.01,2.61,27,Available
+33,Mulberry,groceries,Unknown,4.99,12.87,4.35,4.95,99,Available
+34,Nescafe Coffee,groceries,Unknown,7.99,1.59,7.86,4.82,57,Available
+35,Potatoes,groceries,Unknown,2.29,5.38,2.17,4.81,13,Low Stock
+36,Protein Powder,groceries,Unknown,19.99,7.59,18.47,4.18,80,Available
+37,Red Onions,groceries,Unknown,1.99,9.9,1.79,4.2,82,Available
+38,Rice,groceries,Unknown,5.99,9.29,5.43,3.18,59,Available
+39,Soft Drinks,groceries,Unknown,1.99,17.48,1.64,4.75,53,Available
+40,Strawberry,groceries,Unknown,3.99,1.12,3.95,3.08,46,Available
+41,Tissue Paper Box,groceries,Unknown,2.49,13.28,2.16,2.69,86,Available
+42,Water,groceries,Unknown,0.99,14.92,0.84,4.96,53,Available
+43,Decoration Swing,home-decoration,Unknown,59.99,10.41,53.75,3.16,47,Available
+44,Family Tree Photo Frame,home-decoration,Unknown,29.99,14.87,25.53,4.53,77,Available
+45,House Showpiece Plant,home-decoration,Unknown,39.99,7.46,37.01,4.67,28,Available
+46,Plant Pot,home-decoration,Unknown,14.99,6.84,13.96,3.01,59,Available
+47,Table Lamp,home-decoration,Unknown,49.99,7.09,46.45,3.55,9,Low Stock
+48,Bamboo Spatula,kitchen-accessories,Unknown,7.99,2.84,7.76,3.27,37,Available
+49,Black Aluminium Cup,kitchen-accessories,Unknown,5.99,15.65,5.05,4.46,75,Available
+50,Black Whisk,kitchen-accessories,Unknown,9.99,10.24,8.97,3.9,73,Available
+51,Boxed Blender,kitchen-accessories,Unknown,39.99,7.26,37.09,4.56,9,Low Stock
+52,Carbon Steel Wok,kitchen-accessories,Unknown,29.99,6.53,28.03,4.05,40,Available
+53,Chopping Board,kitchen-accessories,Unknown,12.99,8.03,11.95,3.7,14,Low Stock
+54,Citrus Squeezer Yellow,kitchen-accessories,Unknown,8.99,12.1,7.9,4.63,22,Available
+55,Egg Slicer,kitchen-accessories,Unknown,6.99,14.76,5.96,3.09,40,Available
+56,Electric Stove,kitchen-accessories,Unknown,49.99,14.04,42.97,4.11,21,Available
+57,Fine Mesh Strainer,kitchen-accessories,Unknown,9.99,3.5,9.64,3.04,85,Available
+58,Fork,kitchen-accessories,Unknown,3.99,8.07,3.67,3.11,7,Low Stock
+59,Glass,kitchen-accessories,Unknown,4.99,7.92,4.59,4.02,46,Available
+60,Grater Black,kitchen-accessories,Unknown,10.99,3.56,10.6,3.21,84,Available
+61,Hand Blender,kitchen-accessories,Unknown,34.99,17.02,29.03,3.86,84,Available
+62,Ice Cube Tray,kitchen-accessories,Unknown,5.99,0.63,5.95,4.71,13,Low Stock
+63,Kitchen Sieve,kitchen-accessories,Unknown,7.99,18.91,6.48,3.09,68,Available
+64,Knife,kitchen-accessories,Unknown,14.99,18.86,12.16,3.26,7,Low Stock
+65,Lunch Box,kitchen-accessories,Unknown,12.99,10.34,11.65,4.93,94,Available
+66,Microwave Oven,kitchen-accessories,Unknown,89.99,12.13,79.07,4.82,59,Available
+67,Mug Tree Stand,kitchen-accessories,Unknown,15.99,9.25,14.51,2.64,88,Available
+68,Pan,kitchen-accessories,Unknown,24.99,3.0,24.24,2.79,90,Available
+69,Plate,kitchen-accessories,Unknown,3.99,7.31,3.7,3.65,66,Available
+70,Red Tongs,kitchen-accessories,Unknown,6.99,14.52,5.98,4.42,82,Available
+71,Silver Pot With Glass Cap,kitchen-accessories,Unknown,39.99,5.7,37.71,3.22,40,Available
+72,Slotted Turner,kitchen-accessories,Unknown,8.99,13.35,7.79,3.4,88,Available
+73,Spice Rack,kitchen-accessories,Unknown,19.99,12.09,17.57,4.87,79,Available
+74,Spoon,kitchen-accessories,Unknown,4.99,1.53,4.91,4.03,59,Available
+75,Tray,kitchen-accessories,Unknown,16.99,7.48,15.72,4.62,71,Available
+76,Wooden Rolling Pin,kitchen-accessories,Unknown,11.99,9.75,10.82,2.92,80,Available
+77,Yellow Peeler,kitchen-accessories,Unknown,5.99,12.48,5.24,4.24,35,Available
+78,Apple MacBook Pro 14 Inch Space Grey,laptops,Apple,1999.99,4.69,1906.19,3.65,24,Available
+79,Asus Zenbook Pro Dual Screen Laptop,laptops,Asus,1799.99,11.14,1599.47,3.95,45,Available
+80,Huawei Matebook X Pro,laptops,Huawei,1399.99,9.38,1268.67,4.98,75,Available
+81,Lenovo Yoga 920,laptops,Lenovo,1099.99,6.55,1027.94,2.86,40,Available
+82,New DELL XPS 13 9300 Laptop,laptops,Dell,1499.99,11.89,1321.64,2.67,74,Available
+83,Blue & Black Check Shirt,mens-shirts,Fashion Trends,29.99,15.35,25.39,3.64,38,Available
+84,Gigabyte Aorus Men Tshirt,mens-shirts,Gigabyte,24.99,0.94,24.76,3.18,90,Available
+85,Man Plaid Shirt,mens-shirts,Classic Wear,34.99,19.5,28.17,3.46,82,Available
+86,Man Short Sleeve Shirt,mens-shirts,Casual Comfort,19.99,6.83,18.62,2.9,2,Low Stock
+87,Men Check Shirt,mens-shirts,Urban Chic,27.99,11.38,24.8,2.72,95,Available
+88,Nike Air Jordan 1 Red And Black,mens-shoes,Nike,149.99,4.12,143.81,4.77,7,Low Stock
+89,Nike Baseball Cleats,mens-shoes,Nike,79.99,18.04,65.56,3.88,12,Low Stock
+90,Puma Future Rider Trainers,mens-shoes,Puma,89.99,4.2,86.21,4.9,90,Available
+91,Sports Sneakers Off White & Red,mens-shoes,Off White,119.99,4.97,114.03,4.77,17,Low Stock
+92,Sports Sneakers Off White Red,mens-shoes,Off White,109.99,0.04,109.95,4.69,62,Available
+93,Brown Leather Belt Watch,mens-watches,Fashion Timepieces,89.99,5.99,84.6,4.19,32,Available
+94,Longines Master Collection,mens-watches,Longines,1499.99,17.24,1241.39,3.87,100,Available
+95,Rolex Cellini Date Black Dial,mens-watches,Rolex,8999.99,8.88,8200.79,4.97,40,Available
+96,Rolex Cellini Moonphase,mens-watches,Rolex,12999.99,17.52,10722.39,2.58,36,Available
+97,Rolex Datejust,mens-watches,Rolex,10999.99,3.73,10589.69,3.66,86,Available
+98,Rolex Submariner Watch,mens-watches,Rolex,13999.99,5.05,13292.99,2.69,55,Available
+99,Amazon Echo Plus,mobile-accessories,Amazon,99.99,12.07,87.92,4.99,61,Available
+100,Apple Airpods,mobile-accessories,Apple,129.99,15.54,109.79,4.15,67,Available
+101,Apple AirPods Max Silver,mobile-accessories,Apple,549.99,13.67,474.81,3.47,59,Available
+102,Apple Airpower Wireless Charger,mobile-accessories,Apple,79.99,4.48,76.41,3.68,1,Low Stock
+103,Apple HomePod Mini Cosmic Grey,mobile-accessories,Apple,99.99,18.1,81.89,4.62,27,Available
+104,Apple iPhone Charger,mobile-accessories,Apple,19.99,18.52,16.29,4.15,31,Available
+105,Apple MagSafe Battery Pack,mobile-accessories,Apple,99.99,17.17,82.82,3.62,1,Low Stock
+106,Apple Watch Series 4 Gold,mobile-accessories,Apple,349.99,12.02,307.92,2.74,33,Available
+107,Beats Flex Wireless Earphones,mobile-accessories,Beats,49.99,5.73,47.13,4.24,50,Available
+108,iPhone 12 Silicone Case with MagSafe Plum,mobile-accessories,Apple,29.99,13.85,25.84,3.62,69,Available
+109,Monopod,mobile-accessories,TechGear,19.99,8.58,18.27,4.43,48,Available
+110,Selfie Lamp with iPhone,mobile-accessories,GadgetMaster,14.99,19.4,12.08,3.55,58,Available
+111,Selfie Stick Monopod,mobile-accessories,SnapTech,12.99,19.12,10.51,3.88,11,Low Stock
+112,TV Studio Camera Pedestal,mobile-accessories,ProVision,499.99,8.31,458.44,2.78,15,Low Stock
+113,Generic Motorcycle,motorcycle,Generic Motors,3999.99,12.1,3515.99,4.91,34,Available
+114,Kawasaki Z800,motorcycle,Kawasaki,8999.99,9.77,8120.69,3.98,52,Available
+115,MotoGP CI.H1,motorcycle,MotoGP,14999.99,6.92,13961.99,2.97,10,Low Stock
+116,Scooter Motorcycle,motorcycle,ScootMaster,2999.99,6.27,2811.89,2.53,84,Available
+117,Sportbike Motorcycle,motorcycle,SpeedMaster,7499.99,11.58,6631.49,3.94,0,Low Stock
+118,Attitude Super Leaves Hand Soap,skin-care,Attitude,8.99,18.49,7.33,3.19,94,Available
+119,Olay Ultra Moisture Shea Butter Body Wash,skin-care,Olay,12.99,16.39,10.86,4.51,34,Available
+120,Vaseline Men Body and Face Lotion,skin-care,Vaseline,9.99,13.39,8.65,3.16,95,Available
+121,iPhone 5s,smartphones,Apple,199.99,12.91,174.17,2.83,25,Available
+122,iPhone 6,smartphones,Apple,299.99,6.69,279.92,3.41,60,Available
+123,iPhone 13 Pro,smartphones,Apple,1099.99,9.37,996.92,4.12,56,Available
+124,iPhone X,smartphones,Apple,899.99,19.59,723.68,2.51,37,Available
+125,Oppo A57,smartphones,Oppo,249.99,2.43,243.92,3.94,19,Low Stock
+126,Oppo F19 Pro Plus,smartphones,Oppo,399.99,18.64,325.43,3.51,78,Available
+127,Oppo K1,smartphones,Oppo,299.99,18.29,245.12,4.25,55,Available
+128,Realme C35,smartphones,Realme,149.99,15.3,127.04,4.2,48,Available
+129,Realme X,smartphones,Realme,299.99,6.95,279.14,3.7,12,Low Stock
+130,Realme XT,smartphones,Realme,349.99,11.51,309.71,4.58,80,Available
+131,Samsung Galaxy S7,smartphones,Samsung,299.99,19.55,241.34,3.3,67,Available
+132,Samsung Galaxy S8,smartphones,Samsung,499.99,19.45,402.74,4.4,0,Low Stock
+133,Samsung Galaxy S10,smartphones,Samsung,699.99,5.59,660.86,3.06,19,Low Stock
+134,Vivo S1,smartphones,Vivo,249.99,10.17,224.57,3.5,50,Available
+135,Vivo V9,smartphones,Vivo,299.99,17.67,246.98,3.6,82,Available
+136,Vivo X21,smartphones,Vivo,499.99,17.41,412.94,4.26,7,Low Stock
+137,American Football,sports-accessories,Unknown,19.99,4.93,19.0,4.91,53,Available
+138,Baseball Ball,sports-accessories,Unknown,8.99,1.71,8.84,2.57,100,Available
+139,Baseball Glove,sports-accessories,Unknown,24.99,2.9,24.27,3.96,22,Available
+140,Basketball,sports-accessories,Unknown,14.99,7.44,13.87,4.66,75,Available
+141,Basketball Rim,sports-accessories,Unknown,39.99,7.74,36.89,4.6,43,Available
+142,Cricket Ball,sports-accessories,Unknown,12.99,8.63,11.87,3.53,30,Available
+143,Cricket Bat,sports-accessories,Unknown,29.99,3.29,29.0,3.17,98,Available
+144,Cricket Helmet,sports-accessories,Unknown,44.99,9.64,40.65,4.69,10,Low Stock
+145,Cricket Wicket,sports-accessories,Unknown,29.99,16.93,24.91,4.73,25,Available
+146,Feather Shuttlecock,sports-accessories,Unknown,5.99,2.95,5.81,2.85,95,Available
+147,Football,sports-accessories,Unknown,17.99,5.15,17.06,3.28,96,Available
+148,Golf Ball,sports-accessories,Unknown,9.99,17.37,8.25,4.3,84,Available
+149,Iron Golf,sports-accessories,Unknown,49.99,6.53,46.73,4.41,90,Available
+150,Metal Baseball Bat,sports-accessories,Unknown,29.99,19.51,24.14,4.66,16,Low Stock
+151,Tennis Ball,sports-accessories,Unknown,6.99,11.76,6.17,4.06,28,Available
+152,Tennis Racket,sports-accessories,Unknown,49.99,19.61,40.19,4.03,6,Low Stock
+153,Volleyball,sports-accessories,Unknown,11.99,12.25,10.52,3.84,0,Low Stock
+154,Black Sun Glasses,sunglasses,Fashion Shades,29.99,4.94,28.51,4.41,60,Available
+155,Classic Sun Glasses,sunglasses,Fashion Shades,24.99,4.94,23.76,3.86,1,Low Stock
+156,Green and Black Glasses,sunglasses,Fashion Shades,34.99,1.01,34.64,4.55,24,Available
+157,Party Glasses,sunglasses,Fashion Fun,19.99,11.22,17.75,2.79,86,Available
+158,Sunglasses,sunglasses,Fashion Shades,22.99,1.51,22.64,3.02,27,Available
+159,iPad Mini 2021 Starlight,tablets,Apple,499.99,3.64,481.79,3.18,47,Available
+160,Samsung Galaxy Tab S8 Plus Grey,tablets,Samsung,599.99,13.31,520.13,4.68,62,Available
+161,Samsung Galaxy Tab White,tablets,Samsung,349.99,18.2,286.29,3.72,92,Available
+162,Blue Frock,tops,Unknown,29.99,12.13,26.35,4.17,52,Available
+163,Girl Summer Dress,tops,Unknown,19.99,19.2,16.15,4.77,43,Available
+164,Gray Dress,tops,Unknown,34.99,14.28,29.99,2.72,55,Available
+165,Short Frock,tops,Unknown,24.99,13.45,21.63,3.23,22,Available
+166,Tartan Dress,tops,Unknown,39.99,12.95,34.81,4.05,73,Available
+167,300 Touring,vehicle,Chrysler,28999.99,3.98,27845.79,4.05,54,Available
+168,Charger SXT RWD,vehicle,Dodge,32999.99,8.23,30284.09,2.58,57,Available
+169,Dodge Hornet GT Plus,vehicle,Dodge,24999.99,2.63,24342.49,2.65,82,Available
+170,Durango SXT RWD,vehicle,Dodge,36999.99,16.44,30917.19,4.07,95,Available
+171,Pacifica Touring,vehicle,Chrysler,31999.99,14.76,27276.79,3.62,53,Available
+172,Blue Women's Handbag,womens-bags,Fashionista,49.99,17.88,41.05,2.92,76,Available
+173,Heshe Women's Leather Bag,womens-bags,Heshe,129.99,3.87,124.96,4.92,99,Available
+174,Prada Women Bag,womens-bags,Prada,599.99,14.09,515.45,2.71,75,Available
+175,White Faux Leather Backpack,womens-bags,Urban Chic,39.99,15.2,33.91,3.36,39,Available
+176,Women Handbag Black,womens-bags,Elegance Collection,59.99,11.63,53.01,2.89,11,Low Stock
+177,Black Women's Gown,womens-dresses,Unknown,129.99,10.48,116.37,3.64,25,Available
+178,Corset Leather With Skirt,womens-dresses,Unknown,89.99,16.26,75.36,3.05,30,Available
+179,Corset With Black Skirt,womens-dresses,Unknown,79.99,15.06,67.94,4.52,33,Available
+180,Dress Pea,womens-dresses,Unknown,49.99,17.68,41.15,4.88,6,Low Stock
+181,Marni Red & Black Suit,womens-dresses,Unknown,179.99,19.02,145.76,4.48,62,Available
+182,Green Crystal Earring,womens-jewellery,Unknown,29.99,15.24,25.42,3.96,54,Available
+183,Green Oval Earring,womens-jewellery,Unknown,24.99,15.18,21.2,3.57,73,Available
+184,Tropical Earring,womens-jewellery,Unknown,19.99,0.76,19.84,4.4,1,Low Stock
+185,Black & Brown Slipper,womens-shoes,Comfort Trends,19.99,3.33,19.32,2.53,3,Low Stock
+186,Calvin Klein Heel Shoes,womens-shoes,Calvin Klein,79.99,3.19,77.44,4.92,93,Available
+187,Golden Shoes Woman,womens-shoes,Fashion Diva,49.99,13.93,43.03,3.26,88,Available
+188,Pampi Shoes,womens-shoes,Pampi,29.99,14.14,25.75,3.05,49,Available
+189,Red Shoes,womens-shoes,Fashion Express,34.99,17.69,28.8,3.25,7,Low Stock
+190,IWC Ingenieur Automatic Steel,womens-watches,IWC,4999.99,9.45,4527.49,2.93,90,Available
+191,Rolex Cellini Moonphase,womens-watches,Rolex,15999.99,4.11,15342.39,3.83,52,Available
+192,Rolex Datejust Women,womens-watches,Rolex,10999.99,15.94,9246.59,2.86,4,Low Stock
+193,Watch Gold for Women,womens-watches,Fashion Gold,799.99,18.34,653.27,4.24,0,Low Stock
+194,Women's Wrist Watch,womens-watches,Fashion Co.,129.99,12.6,113.61,3.52,12,Low Stock
