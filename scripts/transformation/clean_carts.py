@@ -23,6 +23,9 @@ df.columns = (
     .str.replace(" ", "_")
 )
 
+# ADD THIS LINE HERE
+print(df.columns.tolist())
+
 # Select important columns
 selected_columns = [
     'id',
@@ -37,12 +40,3 @@ df = df[selected_columns]
 
 # Save cleaned carts data
 df.to_csv("data/processed/carts_cleaned.csv", index=False)
-
-print("Carts cleaned successfully!")
-print(df.head())
-
-log_etl_run(
-    pipeline_name="Carts_Transformation",
-    records_processed=len(df),
-    status="SUCCESS"
-)

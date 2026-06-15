@@ -1,152 +1,203 @@
-# End-to-End Smart Retail Data Platform
+# End-to-End Smart Retail Analytics Platform
 
 ## Project Overview
 
-Built an end-to-end Data Engineering project using Python, Pandas, SQL, and MySQL.
+Built an end-to-end cloud-based Retail Analytics Platform that ingests retail data from REST APIs, processes and transforms data through ETL pipelines, stores data in a scalable data warehouse, and generates actionable business insights through interactive Power BI dashboards.
 
-The project extracts retail data from the DummyJSON API, performs data cleaning and transformation, loads the processed data into a data warehouse, validates data quality using SQL, and generates business analytics insights.
-
----
-## Dataset Statistics
-
-| Dataset | Records |
-|----------|---------:|
-| Products | 194 |
-| Users | 200 |
-| Carts | 200 |
-| Categories | 24 |
-
-## Tech Stack
-
-* Python
-* Pandas
-* SQL
-* MySQL
-* REST APIs
-* Git & GitHub
-
----
-## Key Features
-
-- API Data Extraction using Python
-- Data Cleaning and Transformation using Pandas
-- Data Warehouse Design using MySQL
-- Data Validation and Quality Checks
-- Business Analytics using SQL
-- ETL Logging Framework
-- Modular Project Structure
-
-## Project Architecture
-
-DummyJSON API
-↓
-Data Extraction Layer
-↓
-Raw CSV Storage
-↓
-Data Transformation (Pandas)
-↓
-Processed CSV Storage
-↓
-MySQL Data Warehouse
-↓
-SQL Validation Layer
-↓
-Business Analytics Layer
-↓
-ETL Logging Framework
+The project demonstrates modern Data Engineering, Business Intelligence, and Analytics workflows using Microsoft Azure services and industry-standard data practices.
 
 ---
 
-## Dataset
-
-### Products
-
-* Product information
-* Categories
-* Pricing
-* Ratings
-* Inventory
-
-### Users
-
-* Customer information
-* Demographics
-* User profiles
-
-### Carts
-
-* Shopping cart transactions
-* Revenue metrics
-
----
-
-## ETL Workflow
-
-### Extraction
-
-* Fetched data from DummyJSON APIs
-* Stored raw datasets in CSV format
-
-### Transformation
-
-* Removed duplicates
-* Handled missing values
-* Standardized column names
-* Created derived business metrics
-
-### Loading
-
-* Loaded cleaned datasets into MySQL tables:
-
-  * dim_products
-  * dim_users
-  * fact_carts
-
-### Validation
-
-* Duplicate checks
-* Record count validation
-* Data quality verification
-
-### Analytics
-
-* Product category analysis
-* Revenue analysis
-* User demographic analysis
-* Inventory analysis
-
----
-
-## ETL Logging
-
-Implemented a centralized ETL logging framework to capture:
-
-* Pipeline name
-* Records processed
-* Execution timestamp
-* Pipeline status
-
----
-
-## Project Structure
+## Architecture
 
 ```text
-End_to_End_Smart_Retail_Data_Platform
+DummyJSON API
+        ↓
+Azure Data Lake Storage Gen2 (Raw Layer)
+        ↓
+Azure Data Factory
+        ↓
+Data Flow Transformation
+        ↓
+Azure Data Lake Storage Gen2 (Enriched Layer)
+        ↓
+Azure SQL Database
+        ↓
+Power BI Dashboard
+        ↓
+AI Insight Engine (In Progress)
+```
+
+![Architecture](screenshots/architecture.png)
+
+---
+
+## Dataset Statistics
+
+| Dataset    | Records |
+| ---------- | ------: |
+| Products   |     194 |
+| Users      |     200 |
+| Carts      |     200 |
+| Categories |      24 |
+
+---
+
+## Technology Stack
+
+### Data Engineering
+
+* Azure Data Factory
+* Azure Data Lake Storage Gen2
+* Azure SQL Database
+* ETL Pipelines
+* Data Warehousing
+
+### Analytics & BI
+
+* Power BI
+* DAX
+* Excel
+* Power Query
+
+### Programming
+
+* Python
+* SQL
+* Pandas
+* NumPy
+
+### Cloud
+
+* Microsoft Azure
+* REST APIs
+
+---
+
+## Key Features
+
+* Automated API Data Ingestion
+* End-to-End ETL Pipeline Development
+* Data Cleaning and Transformation
+* Cloud Data Lake Architecture
+* Data Warehouse Design
+* Data Validation and Quality Checks
+* Interactive Power BI Dashboards
+* KPI Monitoring and Business Reporting
+* Revenue and Customer Analytics
+* Scalable Analytics Architecture
+
+---
+
+## Data Warehouse Design
+
+Implemented a dimensional data model using:
+
+### Fact Tables
+
+* fact_carts
+
+### Dimension Tables
+
+* dim_products
+* dim_users
+
+The warehouse design supports efficient analytical queries and business reporting.
+
+---
+
+## Azure Data Factory Pipeline
+
+Automated data ingestion, transformation, and loading using Azure Data Factory pipelines.
+
+![ADF Pipeline](screenshots/adf_pipeline.png)
+
+---
+
+## Data Transformation Flow
+
+Implemented transformation logic for cleansing, enrichment, validation, and business rule application.
+
+![Data Flow](screenshots/data_flow.png)
+
+---
+
+## Azure SQL Data Warehouse
+
+Loaded curated datasets into Azure SQL Database for reporting and analytics.
+
+![Azure SQL Tables](screenshots/azure_sql_tables.png)
+
+---
+
+## Power BI Dashboard
+
+Developed interactive dashboards to monitor:
+
+* Revenue Trends
+* Product Performance
+* Category Analysis
+* Customer Insights
+* Business KPIs
+
+### Dashboard Overview
+
+![Power BI Dashboard](screenshots/powerbi_dashboard_overview.png)
+
+### Revenue Analysis
+
+![Revenue Analysis](screenshots/revenue_analysis.png)
+
+### Product Category Analysis
+
+![Products by Category](screenshots/products_by_category.png)
+
+### Top Products Analysis
+
+![Top Products](screenshots/top_10_products.png)
+
+### User Demographics
+
+![User Demographics](screenshots/user_demographics.png)
+
+---
+
+## Business Insights Generated
+
+* Identified top-performing product categories.
+* Analyzed revenue contribution across product segments.
+* Evaluated customer demographics and purchasing behavior.
+* Monitored operational KPIs through interactive dashboards.
+* Improved reporting accuracy through automated validation workflows.
+
+---
+
+## Future Enhancements
+
+* AI-Powered Insight Engine
+* Natural Language Querying
+* Predictive Analytics and Forecasting
+* Azure Databricks Integration
+* PySpark-Based Data Processing
+* Real-Time Data Streaming
+
+---
+
+## Repository Structure
+
+```text
+End_to_End_Smart_Retail_Analytics_Platform
 
 data/
 ├── raw/
 ├── processed/
 
-scripts/
-├── extraction/
-├── transformation/
-└── utils/
+pipelines/
+├── adf/
 
 sql/
 ├── validation_queries.sql
 ├── business_analytics.sql
-└── etl_logging.sql
 
 screenshots/
 
@@ -155,37 +206,8 @@ README.md
 
 ---
 
-## Future Enhancements
-
-* Azure Blob Storage Integration
-* Azure Data Factory Pipeline
-* Power BI Dashboard
-* Incremental Data Loading
-* Cloud-Based Data Warehouse
-
-## Project Screenshots
-
-### Top 10 Most Expensive Products
-
-![Top Products](screenshots/top_10_products.png)
-
-### Revenue Analysis
-
-![Revenue Analysis](screenshots/revenue_analysis.png)
-
-### Products by Category
-
-![Products by Category](screenshots/products_by_category.png)
-
-### User Demographics
-
-![User Demographics](screenshots/user_demographics.png)
-
-
-
----
-
 ## Author
 
-Priyanshu Yadav
-Aspiring Data Engineer
+**Priyanshu Yadav**
+
+Aspiring Data Analyst | Data Engineer 
