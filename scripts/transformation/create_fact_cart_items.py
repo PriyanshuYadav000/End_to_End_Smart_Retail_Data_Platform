@@ -1,7 +1,7 @@
 import pandas as pd
 import ast
 
-# Read raw carts file
+
 df = pd.read_csv("data/raw/carts_raw.csv")
 
 cart_items = []
